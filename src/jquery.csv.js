@@ -39,7 +39,7 @@
     }
     factory(global.$); // script, wsh, asp
   }
-}(this, function ($) {
+})(this, function ($) {
 
 RegExp.escape= function(s) {
     return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
