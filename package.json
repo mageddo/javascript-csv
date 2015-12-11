@@ -1,5 +1,5 @@
 {
-  "name": "jquery-csv",
+  "name": "javascript-csv",
   "version": "0.7.1",
   "description": "CSV parser (complete, end-to-end, battle tested, performance optimized, 100% IETF RFC 4180 compatible) in pure js to be used with jQuery, nodejs and more",
   "author": {
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://code.google.com/p/jquery-csv/"
+    "url": "https://github.com/mageddo/javascript-csv"
   },
   "readmeFilename": "README.md"
 }
