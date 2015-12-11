@@ -1,5 +1,26 @@
 # jquery-csv
 
+## node example
+
+pseudo code
+
+	var input = `
+		"apple","100g"
+		"orange","150g"
+		"grape","20g"
+	`;
+	require("javascript-csv").toArrays(input);
+
+	// [
+	//		["apple", "100g"],
+	//		["orange", "150g"],
+	//		["grape", "20g"]
+	// ]
+
+
+# more examples
+more examples in **examples** folder (javascript demo but work perfectly with node) 
+
 ## Summary
 
 Javascript is growing up and HTML is finally maturing the point where webapps are being built to completely displace desktop applications. It's about time that the supporting libraries grow up too.
