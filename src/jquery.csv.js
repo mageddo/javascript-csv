@@ -27,26 +27,22 @@
  * Copyrighted 2012 by Evan Plaice.
  */
 
-(function (global, factory) {
-  if (typeof exports === 'object' && exports && typeof exports.nodeName !== 'string') {
-    factory(exports); // CommonJS
-  } else {
-    // to keep backwards compatibility
-    if (typeof jQuery !== 'undefined' && jQuery) {
-      global.$ = jQuery;
-    } else {
-      global.$ = {};
-    }
-    factory(global.$); // script, wsh, asp
-  }
-})(this, function ($) {
-
 RegExp.escape= function(s) {
     return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
 (function (undefined) {
   'use strict'
+
+  var $;
+
+  // to keep backwards compatibility
+  if (typeof jQuery !== 'undefined' && jQuery) {
+    $ = jQuery;
+  } else {
+    $ = {};
+  }
+
 
   /**
    * jQuery.csv.defaults
@@ -980,7 +976,3 @@ RegExp.escape= function(s) {
   }
 
 }).call( this );
-
-
-});
-
