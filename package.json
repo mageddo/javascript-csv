@@ -1,6 +1,6 @@
 {
   "name": "javascript-csv",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CSV parser (complete, end-to-end, battle tested, performance optimized, 100% IETF RFC 4180 compatible) in pure js to be used with jQuery, nodejs and more",
   "author": {
     "name": "Evan Plaice",
